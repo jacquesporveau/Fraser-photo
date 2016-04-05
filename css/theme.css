@@ -26,8 +26,7 @@ html {
   }
 }
 body {
-  background-color: #ffffff;
-  color: #808080;
+  background-image: url(../imgs/photography.png);
   font-family: 'Monda', helvetica, arial, verdana, sans-serif;
   font-size: 100%;
   line-height: 1.5;
@@ -1127,4 +1126,12 @@ div.camera-icon {
   .camera {
     height: 50px;
   }
+}
+
+.nav-tabs>li>a {
+  border: none;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: transparent;
 }
