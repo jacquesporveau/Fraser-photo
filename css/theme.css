@@ -19,6 +19,7 @@ All base HTML tags that require styling
 html {
   font-size: 16px;
 }
+
 @media only screen and (min-width: 768px) {
   html {
     font-size: 18px;
@@ -201,11 +202,11 @@ Styles specific to your layout or website
   z-index: 1;
 }
 #page-content-wrapper.home .inner {
-  bottom: 5px;
-  left: 5px;
+  bottom: 0px;
+  left: 0px;
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 0px;
+  top: 0px;
 }
 @media only screen and (min-width: 768px) {
   #page-content-wrapper.home .inner {
@@ -1110,4 +1111,20 @@ a.post-by:focus,
 .post-share-links a:hover,
 .post-share-links a:focus {
   color: #191919;
+}
+
+.camera {
+  height: 80px;
+  margin: auto;
+}
+
+div.camera-icon {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .camera {
+    height: 50px;
+  }
 }
